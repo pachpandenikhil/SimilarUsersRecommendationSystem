@@ -5,7 +5,7 @@ Recommendation System for finding top 5 similar users
 - Calculated minhash signatures for each user (represented as a set of movies) and applied LSH (Locality-sensitive hashing) for finding candidate pairs of similar users.
 - Computed Jaccard similarity of each candidate pair to find the top 5 similar users for each user.
 
-Core Technology: Apache Spark, Python, AWS (Amazon EC2 and Amazon S3).
+Core Technology: Apache Spark, Python, AWS (Amazon EC2).
 
 # Program
 Test set contains 100 different movies, numbered from 0 to 99. A user is represented as a set of movies. Jaccard coefficient is used to measure the similarity of sets.
