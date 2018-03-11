@@ -31,9 +31,8 @@ The program takes 2 arguments:
 Each line of the input file represents a user (with ID “U1” for example) and a list of movies the user has watched (e.g., movie \#0, 12, 45)
 
 ```
-U2:U9,U10
-U3:U8
-U8:U3
+U1,0,12,45
+U2,2,3,5,99
 …
 ```
 
